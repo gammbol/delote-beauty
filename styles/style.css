@@ -13,6 +13,7 @@ a {
     background-image: url(../images/header_background.png);
     background-repeat: no-repeat;
     height: 100vh;
+    margin: 0 auto;
 }
 .container {
     display: flex;
@@ -73,6 +74,7 @@ a {
     align-items: center;
     gap: 20px;
     margin: 250px auto 0;
+    cursor: default;
 }
 .mouse {
     background-image: url(../images/header_mouse.svg);
