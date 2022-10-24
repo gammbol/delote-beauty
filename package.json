@@ -1,0 +1,20 @@
+{
+  "name": "delote-beauty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "prepare": "npm install -g create-react-app",
+    "set": "create-react-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gammbol/delote-beauty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gammbol/delote-beauty/issues"
+  },
+  "homepage": "https://github.com/gammbol/delote-beauty#readme"
+}
