@@ -9,5 +9,5 @@ open.addEventListener('click', (e) => {
 close.addEventListener('click', (e) => {
     e.preventDefault();
     body.classList.toggle('_active');
-})
+});
 
