@@ -15,6 +15,7 @@ a {
     background-position: center;
     margin: 0 auto;
     position: relative;
+    width: 100%;
 }
 .header__right_menu__content {
     visibility: hidden;
@@ -200,7 +201,6 @@ a {
     justify-content: space-between;
     gap: 24px;
     margin: 150px auto 0;
-    background-color: rgba(0,0,0,0.2);
     margin-bottom: 100px;
 }
 #partners__kevinmurphy {
