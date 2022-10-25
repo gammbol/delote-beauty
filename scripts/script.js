@@ -1,21 +1,13 @@
-  const burger = () => {
-    const button = $('.header__right_menu');
-    const body = button.find('.header__right_menu__content')
+const open = document.querySelector('.header__right_menu');
+const close = document.querySelector('.header__right_menu__close');
+const body = document.querySelector('.header__right_menu__content');
 
-    button.on('click', (e) => {
-        e.preventDefault();
-        toggleMenu();
-    })
+open.addEventListener('click', (e) => {
+    e.preventDefault();
+    body.classList.toggle('_active');
+});
+close.addEventListener('click', (e) => {
+    e.preventDefault();
+    body.classList.toggle('_active');
+})
 
-    const toggleMenu = () => {
-        body.toggleClass('active');
-
-        if (body.hasClass('active')) {
-            $(body).css('display', 'none');
-        } else {
-            $(body).css('display', 'block');
-        }
-    }
-  }
-
-  burger();
